@@ -1,0 +1,235 @@
+<%-- 
+    Document   : index
+    Created on : 5 Jun 2023, 12:48:37
+    Author     : LukaRistic
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Opis strane">
+    <meta name="keywords" content="rec,fraza,druga rec">
+    <meta name="author" content="Luka Ristic, lukanrt12619@gs.viser.edu.rs">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="..\gymPocetna/css/Style.css">
+
+    <title>SuperHumanGym</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body style="background-color: #0d0d0d;">
+
+    <video class="video-bg" playsinline="playinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="video/videoIndex.mp4" type="video/mp4">
+    </video>
+    <div class="hero">
+        <div class="content">
+            <a href="login.jsp" class="btn btn-primary rounded-0">Prijavi se</a>
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <div class="container text-center">
+            <a class="navbar-brand flex-fill " href="#"><img src="img/Logo1.png" height="70" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Početna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="onama.html">O nama</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galerija.html">Galerija</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Lokacije
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Novi Beograd</a></li>
+                            <li><a class="dropdown-item" href="#">Zemun</a></li>
+                            <li><a class="dropdown-item" href="#">Vračar</a></li>
+                            <li><a class="dropdown-item" href="#">Voždovac</a></li>
+                            <li><a class="dropdown-item" href="#">Dorćol</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Cenovnik</a>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.jsp" style="background-color: rgba(252, 131, 43, 0.7); border-radius: 10px; color: white;">Prijava</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registracija.jsp" style="background-color: rgba(13, 13, 13, 0.7); border-radius: 10px; color: white; ">Registracija</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row row-index pt-5">
+            <div class="col-3 d-flex flex-column justify-content-center align-items-center">
+                <img src="img/health.png" class="card-img-top" alt="#" style="width: 35%; height: auto; filter:drop-shadow(0 0 7px #FC832B);">
+                <p style="color: #FC832B; font-size:30px;"><b>Zdravlje</b></p>
+                <p style="color: white; text-align: center; font-size: 18px;">Zdravlje nam je na prvom mestu. Veoma nam je važno fizičko stanje i kondicija svakog klijenta.</p>
+            </div>
+            <div class="col-3 d-flex flex-column justify-content-center align-items-center">
+                <img src="img/gym.png" class="card-img-top" alt="#" style="width: 35%; height: auto; filter: drop-shadow(0 0 7px #FC832B); ">
+                <p style="color: #FC832B; font-size: 30px;"><b>Funkcionalnost</b></p>
+                <p style="color: white; text-align: center; font-size: 18px;">Pomoći ćemo vam u poboljšanju funkcionalnog kretanja za svakodnevni život.</p>
+            </div>
+            <div class="col-3 d-flex flex-column justify-content-center align-items-center">
+                <img src="img/muscle.png" class="card-img-top" alt="#" style="width: 35%; height: auto; filter: drop-shadow(0 0 7px #FC832B); ">
+                <p style="color: #FC832B; font-size: 30px;"><b>Posvećenost</b></p>
+                <p style="color: white; text-align: center; font-size: 18px;">Naši instruktori su posvećeni, kvalifikovani i obučeni za sve vrste treninga.</p>
+            </div>
+            <div class="col-3 d-flex flex-column justify-content-center align-items-center">
+                <img src="img/water-bottle.png" class="card-img-top" alt="#" style="width: 35%; height: auto; filter: drop-shadow(0 0 7px #FC832B); ">
+                <p style="color: #FC832B; font-size: 30px;"><b>Zdrava ishrana</b></p>
+                <p style="color: white; text-align: center; font-size: 18px;">U sklobu naših objekata imate mogućnost, da pojedete zdrav obrok posle treninga.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6 container justify-content-center align-items-center mt-5 mb-5">
+        <div class="paragraf">
+            <h1 class="mb-3" style="color: #FC832B;">
+                SUPERHUMANGYM
+            </h1>
+            <p>
+                <strong style="color: #FC832B;">Dobrodošli u naš SuperHumanGym</strong> - vaš izbor za zdravlje i fitnes! Mi smo tu da vam pomognemo da postignete svoje ciljeve i unapredite svoje fizičko zdravlje.
+                Naša teretana je opremljena najnovijom opremom i pružamo kvalitetne treninge pod vođstvom stručnog osoblja.
+                Bez obzira da li ste početnik ili iskusni sportista, naši trening programi će vas izazvati i pomoći da ostvarite željene rezultate.
+                Pridružite nam se i počnite putovanje ka boljem i zdravijem životu danas!
+            </p>
+        </div>
+    </div>
+
+    <div class="parallax-body ">
+        <div class="container col-4">
+            <h3 style="color:white;">BESPLATAN TRENING!</h3>
+            <hr class="hr2 mb-5 mx-auto" style="color:white">
+            <p style="color:white;">Prijavite se za besplatan probni trening što pre, jer ako sedite svaki dan, vreme sigurno ne radi za vas.</p>
+            <a href="#" class="btn btn-primary rounded-0">Prijavi se</a>
+        </div>
+    </div>
+
+    <footer class="pt-5 pb-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold " style="font-family: Arial; color: #FC832B; ">O nama</h5>
+                    <hr class="mb-4" style="color:white">
+                    <p class="text-white">
+                        U našoj teretani, vaše zdravlje je na prvom mestu. Koristeći najnovije metode i pristupe fitnesu, osiguravamo siguran i efikasan trening. Naš tim stručnih trenera pažljivo prati vaše potrebe, pružajući personalizovan pristup svakom članu.
+                    </p>
+                    </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold " style="font-family: Arial; color: #FC832B; ">Linkovi</h5>
+                    <hr class="mb-4" style="color:white">
+                    <p>
+                        <a href="onama.html" class="text-white" style="text-decoration:none;">Početna</a>
+                    </p>
+                    <p>
+                        <a href="cestaPitanja.html" class="text-white" style="text-decoration:none;">Česta pitanja</a>
+                    </p>
+                    <p>
+                        <a href="mapaSajta.html" class="text-white" style="text-decoration:none;">Mapa sajta</a>
+                    </p>
+                    <p>
+                        <a href="kontak.html" class="text-white" style="text-decoration:none;">Lokacija</a>
+                    </p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold " style="font-family: Arial; color: #FC832B;"><a href="usluge.html" style="font-family: Arial; color: #FC832B;">Usluge</a></h5>
+                    <hr class="mb-4" style="color:white">
+                    <p>
+                        <a href="decijaStomatologija.html" class="text-white" style="text-decoration:none;">Dečija stomatologija</a>
+                    </p>
+                    <p>
+                        <a href="estetika.html" class="text-white" style="text-decoration:none;">Estetika</a>
+                    </p>
+                    <p>
+                        <a href="implantologija.html" class="text-white" style="text-decoration:none;">Implantologija</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold " style="font-family: Arial; color: #FC832B; ">Kontakt</h5>
+                    <hr class="mb-4" style="color:white">
+                    <p>
+                        <i class="bi bi-envelope-fill text-white mr-3"><a href="mailto:lukanrt12619@gs.viser.edu.rs" style="text-decoration:none;"><strong style="color: #FC832B">lukanrt12619@gs.viser.edu.rs</strong></a></i>
+                    </p>
+                    <p>
+                        <i class="bi bi-phone-fill text-white mr-3">011/2551-173</i>
+                    </p>
+                </div>
+                <hr class="mb-4" style="color:white">
+                <div class=" d-flex justify-content-center">
+                    <div>
+                        <p style="color:white">
+                            Copyright 2023 All Rights Reserved By:
+                            <a href="#" style="text-decoration:none;">
+                                <strong style="color: #FC832B">SuperHumanGym</strong>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="https://sr-rs.facebook.com/" class="text-white"><i class="bi bi-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/" class="text-white"><i class="bi bi-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/" class="text-white"><i class="bi bi-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+
+
+    <script>
+        const navEl = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 56) {
+                navEl.classList.add('navbar-scrolled');
+            } else if (window.scrollY < 56) {
+                navEl.classList.remove('navbar-scrolled');
+            }
+        });
+    </script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>

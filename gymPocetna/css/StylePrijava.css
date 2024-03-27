@@ -1,0 +1,39 @@
+﻿.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+
+.form-control-lg.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-form-control-bg);
+    border-color: #FC832B;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(252,131,43,0.4);
+}
+.btn.btn-primary.btn-lg {
+    background-color: #FC832B;
+    border-color: #FC832B;
+    color: white;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+.btn.btn-primary.btn-floating.mx-1 {
+    background-color: #FC832B;
+    border-color: #FC832B;
+    color: white;
+}
+
